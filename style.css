@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #080808;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    margin-top: 3rem;
+  }
+
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #d5c2fa;
+  }
+  .box:hover{
+    color: #d5c2fa;
+    transform: scale(1)translateY(-5px);
+    box-shadow: 0 0 25px ,#471099;
+    background-color: #d5c2fa;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #471099; /* Background color */
+    color: #fff; /* Text color */
+    border-radius: 1rem;
+    border: none;
+    margin-top: 3rem;
+    text-shadow:
+    0 0 7px rgba(255, 255, 255, 0.8), /* Inner white glow */
+    0 0 20px rgba(107, 29, 233, 0.5), /* Outer white glow */
+    0 0 40px #d5c2fa; /* Blue outer glow */
+  }
+  
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #471099;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    text-shadow:
+    0 0 7px rgba(255, 255, 255, 0.8), /* Inner white glow */
+    0 0 20px rgba(107, 29, 233, 0.5), /* Outer white glow */
+    0 0 40px #d5c2fa; /* Blue outer glow */
+  }
+  
+  #msg {
+    color: #d5c2fa;
+    font-size: 5vmin;
+    text-shadow:
+      0 0 7px rgba(255, 255, 255, 0.8), /* Inner white glow */
+      0 0 20px rgba(107, 29, 233, 0.5), /* Outer white glow */
+      0 0 40px #d5c2fa; /* Blue outer glow */
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+ 
+  .title {
+    margin-top: 3rem;
+    color: #fff; /* Text color (white) */
+    text-align: center; /* Center the text */
+    font-size: 3rem; /* Adjust font size as needed */
+    text-shadow:
+      0 0 7px rgba(255, 255, 255, 0.8), /* Inner white glow */
+      0 0 20px rgba(107, 29, 233, 0.5), /* Outer white glow */
+      0 0 40px #d5c2fa; /* Blue outer glow */
+  }
+  
